@@ -6,10 +6,10 @@ permissions:
 on:
   pull_request:
     branches:
-      - main 
+      - Refiloe-Cherane
   push: 
     branches:
-      - main
+      - Refiloe-Cherane
 
 # Cancels other executions in the same branch
 concurrency:
