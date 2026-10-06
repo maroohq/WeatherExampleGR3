@@ -5,10 +5,10 @@ permissions:
 
 on:
   pull_request:
-  branches:
+   branches:
       - Hope-Keebine 
   push: 
-  branches:
+   branches:
       - Hope-Keebine 
 
 # Cancels other executions in the same branch
