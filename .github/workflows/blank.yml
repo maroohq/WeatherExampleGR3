@@ -4,8 +4,15 @@ permissions:
   contents: read
 
 on:
-  pull_request:
+  pull_request:  
+    branches: 
+      - Zandile-Selao
+ 
   push: 
+    branches: 
+      - Zandile-Selao
+ 
+        
 
 # Cancels other executions in the same branch
 concurrency:
