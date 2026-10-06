@@ -8,6 +8,8 @@ on:
     branches:
       - Thabang-Letsoalo
   push: 
+    branches:
+      - Thabang-Letsoalo
 
 # Cancels other executions in the same branch
 concurrency:
