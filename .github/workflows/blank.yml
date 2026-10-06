@@ -5,7 +5,11 @@ permissions:
 
 on:
   pull_request:
+    branches:
+      - Sisanda-Makhanye
   push: 
+    branches:
+      - Sisanda-Makhanye
 
 # Cancels other executions in the same branch
 concurrency:
