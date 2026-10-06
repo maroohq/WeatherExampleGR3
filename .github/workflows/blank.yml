@@ -5,6 +5,8 @@ permissions:
 
 on:
   pull_request:
+    branches:
+      - Thabang-Letsoalo
   push: 
 
 # Cancels other executions in the same branch
