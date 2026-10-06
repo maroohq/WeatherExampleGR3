@@ -34,5 +34,5 @@ jobs:
     - name: Grant execute permission
       run: chmod +x ./gradlew
   
-    - name: Run ExampleUnitTest
-      run: ./gradlew testDebugUnitTest --tests "*ExampleUnitTest"
+    - name: Run SisandaExample
+      run: ./gradlew testDebugUnitTest --tests "*SisandaExample"
