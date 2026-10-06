@@ -10,8 +10,16 @@ import org.junit.Assert.*
  * See [testing documentation](http://d.android.com/tools/testing).
  */
 class Test {
+    // @Test
+    // fun addition_isCorrect() {
+    //     assertEquals(4, 2 + 2)
+    // }
+
     @Test
-    fun addition_isCorrect() {
-        assertEquals(4, 2 + 2)
+    fun checkUrl_isCorrect(){
+        val main = MainActivity()
+
+        val result = main.buildUrlForWeather()
+        assertIs<URL>(result)
     }
 }
