@@ -19,7 +19,7 @@ class Test {
     fun checkUrl_isCorrect(){
         val main = MainActivity()
 
-        val result = main.buildUrlForWeather()
-        assertIs<URL>(result)
+        val result:Any = main.buildUrlForWeather()
+        assertTrue(result is URL)
     }
 }
