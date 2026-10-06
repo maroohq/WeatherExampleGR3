@@ -5,7 +5,11 @@ permissions:
 
 on:
   pull_request:
+    branches:
+      - main
   push: 
+    branches:
+      - main
 
 # Cancels other executions in the same branch
 concurrency:
