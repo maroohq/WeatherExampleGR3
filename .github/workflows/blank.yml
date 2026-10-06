@@ -5,7 +5,11 @@ permissions:
 
 on:
   pull_request:
-  push: 
+    branches:
+      - tumisho
+  push:
+    branches:
+      - tumisho
 
 # Cancels other executions in the same branch
 concurrency:
