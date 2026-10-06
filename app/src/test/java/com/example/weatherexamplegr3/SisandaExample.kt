@@ -12,6 +12,6 @@ import org.junit.Assert.*
 class SisandaExample {
     @Test
     fun addition_isCorrect() {
-        assertEquals(7, 2 + 2)
+        assertEquals(4, 2 + 2)
     }
 }
