@@ -6,10 +6,12 @@ permissions:
 on:
   pull_request:  
     branches: 
+      - main 
       - Zandile-Selao
  
   push: 
     branches: 
+      - main 
       - Zandile-Selao
  
         
