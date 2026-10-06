@@ -4,12 +4,17 @@ permissions:
   contents: read
 
 on:
-  pull_request:
-    branches:
+  pull_request:  
+    branches: 
       - main 
+      - Zandile-Selao
+ 
   push: 
-    branches:
-      - main
+    branches: 
+      - main 
+      - Zandile-Selao
+ 
+        
 
 # Cancels other executions in the same branch
 concurrency:
@@ -35,4 +40,4 @@ jobs:
       run: chmod +x ./gradlew
   
     - name: Run ExampleUnitTest
-      run: ./gradlew testDebugUnitTest --tests "*ExampleUnitTest"
+      run: ./gradlew testDebugUnitTest --tests "*Test"
